@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "841893064101",
+    "project_id": "my-journey-with-flutter",
+    "storage_bucket": "my-journey-with-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841893064101:android:4f8e263077fa34499c4c4c",
+        "android_client_info": {
+          "package_name": "com.example.second_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841893064101-ova57mljn684d10vil26lpa6st93rq11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLRCcChc9Trlp7RbuEJSXz-TTKDDWuRdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841893064101-ova57mljn684d10vil26lpa6st93rq11.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "841893064101-odmh27u9m1218rremjanopafqgna9kir.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.secondTutorial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
