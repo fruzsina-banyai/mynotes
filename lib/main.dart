@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:path/path.dart';
 import 'package:second_tutorial/constants/routes.dart';
 import 'package:second_tutorial/views/login_view.dart';
 import 'package:second_tutorial/views/notes/create_update_note_view.dart';
