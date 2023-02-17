@@ -4,6 +4,7 @@ import 'package:second_tutorial/services/auth/auth_exceptions.dart';
 import 'package:second_tutorial/services/auth/bloc/auth_bloc.dart';
 import 'package:second_tutorial/services/auth/bloc/auth_event.dart';
 import 'package:second_tutorial/services/auth/bloc/auth_state.dart';
+import 'package:second_tutorial/services/extensions/buildcontext/loc.dart';
 import 'package:second_tutorial/utilities/dialogs/error_dialog.dart';
 
 class LoginView extends StatefulWidget {
@@ -47,7 +48,7 @@ class _LoginViewState extends State<LoginView> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Login"),
+          title: Text(context.loc.login_title),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
